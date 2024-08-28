@@ -150,4 +150,6 @@ static/
 yatube_api/posts/static/
 media/
 postman_collection/
-
+yatube_api/api/admin.py
+yatube_api/api/tests.py
+yatube_api/api/models.py
