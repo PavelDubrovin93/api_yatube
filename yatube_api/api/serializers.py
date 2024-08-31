@@ -5,8 +5,6 @@ from posts.models import Post, Group, Comment
 
 class PostSerializer(serializers.ModelSerializer):
 
-    group = serializers.PrimaryKeyRelatedField(queryset=Group.objects.all(),
-                                               required=False)
     author = serializers.SlugRelatedField(slug_field='username',
                                           read_only=True)
 
