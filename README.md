@@ -1,2 +1,2 @@
 # api_yatube
-api_yatube
+Проект для проведение Unit-тестов
